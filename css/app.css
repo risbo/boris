@@ -1,0 +1,34 @@
+.hero {
+	background-image: url('../images/perros-y-gatos.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+.hero .lema {
+	padding: 0;
+	margin: 12em 37% 0em 37%;
+	color: #fff;
+}
+.hero .lema p:first-child, .hero .lema p:last-child {
+	font-size: 2rem;
+}
+.hero .lema p:nth-child(2) {
+	font-size: 4rem;
+	font-weight: 500;
+	margin-top: 24px;
+}
+.hero .lema p:last-child {
+	text-align: right;
+}
+
+section img {
+	transition-duration: .40s;
+}
+
+section img:hover {
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);
+}

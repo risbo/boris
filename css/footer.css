@@ -1,0 +1,47 @@
+footer {
+	padding: 3em 0;
+	background-color: #4d4d4d;
+	background-image: url('../images/footprints.png');
+	background-repeat: no-repeat;
+	background-position-x: 95%;
+	background-position-y: 15px;
+	background-size: 60px;
+}
+footer address {
+	color: #fff;
+	float: left;
+	margin-bottom: 0;
+	padding-right: 20px;
+	border-right: 1px solid #f5f5f5;
+}
+footer address a {
+	color: #fff;
+	text-decoration: none;
+}
+footer address a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.redes {
+  float: left;
+  padding-left: 20px;
+}
+.redes ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.redes ul li {
+	padding: 0 5px;
+	display: inline-block;
+}
+.redes ul li a {
+	color: #fff;
+	transition-duration: .25s;
+}
+.redes ul li:hover a {
+	color: #ccc;
+}
+.redes ul li a i {
+	line-height: 60px;
+}

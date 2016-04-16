@@ -1,0 +1,30 @@
+.hero {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/refugio.jpg');
+	background-size: 100%;
+}
+.hero .quote {
+  color: #fff;
+  border-left: 10px solid #fff;
+  margin-top: 5em;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 2em;
+}
+.hero .quote:before {
+	content: open-quote;
+	font-size: 3em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+.hero .quote:after {
+	content: close-quote;
+	font-size: 3em;
+	line-height: 0.1em;
+	vertical-align: -0.6em;
+}
+.hero .quote p {
+	display: inline;
+}
